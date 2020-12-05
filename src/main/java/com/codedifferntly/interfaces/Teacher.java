@@ -17,5 +17,5 @@ package com.codedifferntly.interfaces;
 //Method return-type: void
 public interface Teacher {
     public void teach(Learner leaner,double numberOfHours );
-    public void lecture(Leaner[] leaners, double numberOfHours);
+    public void lecture(Learner[] leaner, double numberOfHours);
 }

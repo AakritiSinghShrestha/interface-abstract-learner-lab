@@ -38,10 +38,11 @@ public class TestStudent {
     public void testLearn() {
         //Given
         Student student = new Student(435, "Micheal");
-
+        student.learn(10.0);
         //When
-        boolean actual = student instanceof Learner;
+        double expected =10.0;
+        double actual = student.getTotalStudyTime();
         //Then
-        Assert.assertEquals(true,actual);
+        Assert.assertEquals(expected,actual,0.01);
     }
 }

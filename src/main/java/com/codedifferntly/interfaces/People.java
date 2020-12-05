@@ -5,6 +5,10 @@ import java.util.ArrayList;
 public class People {
     ArrayList<Person> personList;
 
+    public People(){
+        personList = new ArrayList<>();
+    }
+
     public  void add(Person person){
         personList.add(person);
     }
